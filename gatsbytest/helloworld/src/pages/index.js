@@ -1,12 +1,12 @@
 import React from "react"
 import Header from "../components/header"
 import { Link } from "gatsby"
-import "../styles/index.scss"
+import styles from "./index.module.scss"
 
 export default function Home() {
   return (
     <div
-      className={"textbox"} //style={{ color: "lightblue" }}
+      className={styles.text} //style={{ color: "lightblue" }}
     >
       <Header headerText="This is props or whatever" color={"red"} />
       <Link to="/contact/"> Contact </Link>
