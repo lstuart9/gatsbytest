@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import { Link } from "gatsby"
-import styles from "./index.module.scss"
+import * as styles from "./index.module.scss"
 
 export default function Home() {
   return (

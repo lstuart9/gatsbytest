@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./header.module.scss"
+import * as styles from "./header.module.scss"
 export default function Header(props) {
   return (
     <h1 className={styles.head} style={{ color: props.color }}>
