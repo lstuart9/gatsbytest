@@ -1,10 +1,75 @@
 body{
-  background-color: pink;
+  background-color: #EFEFEF;
 }
 .text{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 400px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.topnav {
+  background-color: #A9a9a9;
+  overflow: hidden;
+  //#CAEBF2
+  //#FF3B3F
+
+
+
+  a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display:inline-block;
+
+
+  }
+
+  /* Change the color of links on hover */
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  a.active {
+    background-color: lightpink;
+    color: white;
+  }
+}
+.customOverlay {
+  background: black;
+}
+.customModal {
+  background: black;
+  max-width: 500px;
+  width: 100%;
+}
+.boxy {
+  border: 2px solid #A9a9a9;
+  max-width: 800px;
+  margin: auto;
+  background-color:#CAEBF2 ;
+}
+.image{
+  margin: auto;
+}
+.foot{
+  width: 100%;
+  text-align: center;
+  background-color: #a9a9a9;
+}
+.buttonHolder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+}
+.button{
+  background-color: #CAEBF2;
+  color: #A9a9a9;
+  padding: 15px;
 }

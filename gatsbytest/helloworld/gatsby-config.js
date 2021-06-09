@@ -6,5 +6,13 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-plugin-snipcart",
+      options: {
+        apiKey: "YOUR_SNIPCART_KEY",
+      },
+    },
+  ],
 }
